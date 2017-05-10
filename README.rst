@@ -3,7 +3,7 @@ Keyring Credentials Extension for Kibitzr
 =========================================
 
 Once this extension package is installed Kibitzr's ``creds`` will be augmented with ``keyring`` dictionary.
-``keyring`` dictionary has following structure: {``service``: {``key``: ``value``}}.
+``keyring`` dictionary has following structure: ``{service: {key: value}}``.
 
 ``creds`` dictionary is available in many parts of Kibitzr checks. To access it from Python code use::
 
